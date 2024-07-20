@@ -45,7 +45,7 @@ void print_stk()
 
 {
     struct Stk_node *pnode = pTop;
-    while (pTop != NULL)
+    while (pnode != NULL)
 
     {
         printf("%d\n", pnode->data);
@@ -70,6 +70,5 @@ int main()
     push(8);
     push(9);
     push(7);
-    print_stk();
-    print_pop();
-}
+    
+ }
